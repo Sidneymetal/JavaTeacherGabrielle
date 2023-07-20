@@ -1,0 +1,85 @@
+### Exercícios
+
+**(FOR – WHILE – DO WHILE)**
+
+1. Apresentar os quadrados dos números inteiros de 15 a 200.
+
+
+2. Apresentar o total da soma obtida dos cem primeiros números inteiros.
+    
+    <aside>
+    💡 Dica: Operador de resto de divisão = `%`  
+    Ex: `10 % 2 == 0 //true`
+    Lemos: 10 dividido por 2 é igual à 0? Sim, verdade.
+    
+    </aside>
+    
+3. Apresentar todos os números divisíveis por 4 que sejam menores que 200.
+
+
+4. Elaborar um programa que efetue a leitura sucessiva de valores numéricos e apresente no final o total do somatório, a média e o total de valores lidos. O programa deve fazer as leituras dos valores enquanto o usuário estiver fornecendo valores positivos. Ou seja, o programa deve parar quando o usuário fornecer um valor negativo.
+    
+    <aside>
+    💡 Dica: Adquirindo dados do console:
+    
+    ```java
+    Scanner s = new Scanner([System.in](http://system.in/)); //Declaramos o Scanner
+    System.out.println("Digite sua idade: "); //Pedimos a informação
+    int idade = s.nextInt(); //Pegamos o valor
+    System.out.println("Vc tem " + idade + " anos."); //Imprimindo o valor
+    
+    ```
+    
+    </aside>
+
+    
+5. Elaborar um programa que efetue a leitura de valores positivos inteiros até que um valor negativo seja informado. Ao final devem ser apresentados o maior e menor valores informados pelo usuário.
+
+
+
+6. Receber do teclado, vários números e verificar se eles são ou não quadrados perfeitos. O programa termina quando o usuário digitar um número menor ou igual a zero.
+    
+    <aside>
+    💡 Um número é quadrado perfeito quando tem um número inteiro como raiz quadrada.
+    
+    </aside>
+    
+7. Ler um número do teclado e imprimir todos os números de 1 até o número lido. Imprimir o produto dos números.
+
+
+
+8. Escrever um programa que receba vários números inteiros no teclado. E no final imprimir a média dos números múltiplos de 3. Para sair digitar 0 (zero).
+
+
+
+9. Solicitar a idade de várias pessoas e imprimir: 
+    1. Total de pessoas com menos de 21 anos.
+    2. Total de pessoas com mais de 50 anos.
+    
+    O programa termina quando idade for 100.
+
+
+    
+10. Solicitar um número entre 1 e 4. Se a pessoas digitar um número diferente, mostrar a mensagem "Entrada inválida" e solicitar o número novamente. Se digitar correto mostrar o número digitado.
+
+
+
+11. Fazer um programa que gere a saída: 0,2,4,6,8,10,12,14
+
+
+
+12. Solicitar um nome e escrevê-lo (usando **FOR**).
+
+
+
+13. Solicitar um nome e escrevê-lo de trás pra frente (usando **FOR**).
+
+
+
+14.  Fazer um programa que receba valores **n** no teclado e determine o maior. A condição de término do programa é quando o usuário digitar zero.
+
+
+15. Apresentar o total da soma obtida dos cem primeiros números inteiros.
+
+
+16. Receber um número e verificar se está entre 100 e 200. Se estiver na faixa, imprimir: "Você digitou um número entre 100 e 200". Se não estiver na faixa, imprimir: "Você digitou um número fora da faixa entre 100 e 200".
